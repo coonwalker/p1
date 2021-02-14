@@ -16,9 +16,10 @@ api = PushshiftAPI()
 
 start_time=int(dt.datetime(2020, 1, 1).timestamp())
 end_time=int(dt.datetime(2021, 1, 1).timestamp())
-target_stocks=['run','penn','sedg','sam','qdel','halo','cree','gnrc','sail','iivi'\
-                                                        'nvax','vxri','gnpx','vert','celh','plug','codx','nls','grwg','awh',\
-                                                        'aapl','msft','nke','crm','dis','cat','hd','wmt','hon','unh']
+target_stocks=['run','penn','sedg','sam','qdel','halo','cree','gnrc','sail','iivi',\
+              'nvax','vxrt','gnpx','veri','celh','plug','codx','nls','grwg','awh',\
+              'aapl','msft','nke','crm','dis','cat','hd','wmt','hon','unh']
+
 
 for item in range(len(target_stocks)):
     sub_data=target_stocks[item]+'_sub.csv'
