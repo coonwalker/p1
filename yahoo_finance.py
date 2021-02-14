@@ -1,4 +1,4 @@
-#get historical market data from Yahoo Finance API
+#get historical market data from YFinance(Yahoo Finance) API
 
 import yfinance as yf
 
